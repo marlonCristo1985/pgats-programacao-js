@@ -17,6 +17,7 @@ Depois, uma condicional para ajustar a mensagem de acordo com o tempo: 
 menor que 15 -> "atividade rápida: [atividade]"
 de 15 a 30 -> "tempo ideal: [atividade]"
 acima de 30 -> "hora da diversão: [atividade]
+
 */
 
 const porte = 'G7'

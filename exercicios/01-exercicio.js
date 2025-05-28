@@ -1,9 +1,15 @@
 
 /*
-Crie um script para gerar uma tag para identificar o dog
-a tag deve ter:
-- O nome em letras maiusculas
-- A raça com a primeiro maiuscula
+Gerador de tags de identificação
+
+Crie um script para gerar a etiqueta (tag) de
+identificação que será presa na coleira de um cachorro
+no abrigo. O dono irá informar nome, idade, peso, raça
+e se é adotado ou não.
+
+A tag deve ter:
+- O nome em letras maiúsculas
+- A raça com a primeira letra maiúscula
 - Peso
 */
 
