@@ -10,3 +10,15 @@ Exiba uma mensagem como: "Entregando petisco para Pantera"
 Mantenha os dados e a função em arquivos separados; use modularização para organizar
 
 */
+import { CAES } from './10-exercicio-dados.js'
+
+
+function entregrarPetiscos(listaDogs) {
+    listaDogs.forEach(dog => {
+        console.log(`Entregando petisco para: ${dog}`)
+    })
+}
+
+export {
+    entregrarPetiscos
+}
