@@ -1,0 +1,30 @@
+name: "Pipeline Trabalho Final - Disciplina CI/CD PGATS"
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  unit_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalando Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - name: Instalando o npm
+        run: npm install -g npm
+
+      - name: Instalando as dependências do projeto
+        run: npm install
+
+      - name: Instalar mocha
+        run: npm install mocha
+
+      - name: Execução dos testes unitários com Mocha
+        run: npx mocha testes-trabalho-final.js
