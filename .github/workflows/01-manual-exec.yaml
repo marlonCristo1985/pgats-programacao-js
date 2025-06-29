@@ -26,5 +26,5 @@ jobs:
       - name: Instalar mocha
         run: npm install mocha
 
-      - name: Execução dos testes unitários com Mocha
+      - name: Execução unit testes com Mocha
         run: npx mocha testes-trabalho-final.js
